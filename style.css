@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: var(--primary-font);
+}
+
+/* Variable Section. */
+
+:root{
+    --h2colour:#21243D;
+    --pcolour:#777777;
+    --h4colour:#21243D;
+    --fbtntext:#FFFFFF;
+    --fbtncolour:#383838;
+    --stbtncolour:#878CFF;
+    --primary-font:'Poppins', sans-serif;
+    --navcolour:#000000;
+
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+
+}
+a{
+    text-decoration: none;
+}
+
+/* Header Section. */
+
+.headwrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headwrapper h2{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    color: var(--h2colour);
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    height: 60px;
+    margin-top: 43px;
+    border-radius: 6px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:var(--navcolour);
+    font-weight: 500px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0px;
+}
+.fbtn{
+    padding: 10px 31.5px;
+    border-radius: 6px;
+    background:#383838;
+    color: var(--fbtntext);
+    font-family: Poppins;
+}
+
+/* Hero Section. */
+
+.hero{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.herowrapper{
+    text-align: center;
+    max-width: 504.5px;
+    
+}
+.hero_about{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: center;
+  
+}
+span{
+    color: var(--stbtncolour);
+}
+.heading_subtitle{
+        font-size: 20px;
+        text-align: center;
+        margin: 40px 0;
+}
+.commonbtn{
+    background:var(--stbtncolour);
+    color: var(--fbtntext);
+    font-size: 20px;
+    padding: 9px 20px;
+    border-radius: 6px;
+}
+
+/* About Section. */
+.about_sec{
+    height: 552;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutp{
+    padding: 25px 0;
+    font-size: 18px;
+}
+.image{
+    flex-basis: 40%;
+    margin-right: 140px;
+    
+}
+.aboutcontent{
+    flex-basis: 60%;
+    max-width: 456px;
+}
+.aboutwrit{
+    font-size: 40px;
+}
+.image img{
+    text-shadow: 15px 15px 4px red;
+}
+.commonbtn:hover,.fbtn:hover,.btlink:hover{
+        background-color: red;
+        transition: 0.5s;
+}
+
+
+/* Work Section. */
+.mainworksection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.worksec{
+    text-align: center;
+    padding: 120px 0;
+}
+.workheading{
+    font-size: 40px;
+    text-align: center;
+
+}
+.aboutcmmn{
+    margin-top: -34px;
+}
+.btlink{
+    text-align: left;
+}
+
+
+/* Insigts Section. */
+.insigtsbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+}
+.insigtsheading{
+    font-size: 40px;
+    margin: 47px 0;
+}
+.leftinsigt{
+    border: 4px solid #E2E2E2;
+    height: 369px;
+    width: 432px;
+    left: 138px;
+    top: 2221px;
+    border-radius: 4px;
+    max-height: 100%;
+    padding: 30px 45px;
+    border-radius: 4%;
+}
+.rightinsigt{
+    height: 369px;
+    width: 432px;
+    left: 138px;
+    top: 2221px;
+    border-radius: 4px;
+    text-align: justify;
+    border: 4px solid #E2E2E2;
+    max-height: 100%;
+    padding: 30px 45px;
+    border-radius: 4%;
+    
+}
+
+.mainheadinginsigts{
+    margin-left: 30px;
+}
+.cmncon{
+    margin: 12px 0;
+
+}
+.cmnh4{
+    margin: 27px 0;
+}
+.btlink{
+    margin: 29px 0;
+}
